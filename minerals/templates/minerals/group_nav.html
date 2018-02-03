@@ -1,0 +1,5 @@
+{% for group in groups %}
+    <ul style="list-style-type: none;">
+    <li><a href="{% url 'group' group=group %}">{{ group }}</a></li>
+    </ul>
+{% endfor %}

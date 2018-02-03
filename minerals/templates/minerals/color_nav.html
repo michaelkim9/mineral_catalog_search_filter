@@ -1,0 +1,5 @@
+{% for color in colors %}
+    <ul style="list-style-type: none;">
+    <li><a href="{% url 'color' color=color %}">{{ color }}</a></li>
+    </ul>
+{% endfor %}
